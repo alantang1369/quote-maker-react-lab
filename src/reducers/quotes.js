@@ -1,7 +1,7 @@
 export default (state = [], action) => {
   let index;
   let quote;
-  // debugger
+  console.log(state)
   switch (action.type) {
 
     case 'ADD_QUOTE':
